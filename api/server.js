@@ -6,6 +6,8 @@ const routerAPI = require ('./routes/routerAPI')
 const routerAPIv2 = require ('./routes/routerAPI-v2')
 const app = express ()
 
+const port = process.env.port || 3000
+
 app.use (morgan("tiny"))
 app.use (helmet())
 
@@ -18,6 +20,6 @@ app.use (function (req, res) {
 })
 
 // Inicializa o servidor HTTP na porta 3000
-app.listen (3000, function () {
-  console.log ('Servidor rodando na porta 3000')
+app.listen (port, function () {
+  console.log ('O servidor esta rodando')
 })
