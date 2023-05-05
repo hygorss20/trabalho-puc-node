@@ -4,7 +4,7 @@ const routerAPI = express.Router()
 routerAPI.use (express.urlencoded())
 routerAPI.use (express.json())
 
-const lista_produtos = {
+/* const lista_produtos = {
   produtos: [
       { id: 1, descricao: "Arroz parboilizado 5Kg", valor: 25.00, marca: "Tio João"  },
       { id: 2, descricao: "Maionese 250gr", valor: 7.20, marca: "Helmans"  },
@@ -12,7 +12,7 @@ const lista_produtos = {
       { id: 4, descricao: "Batata Maior Palha 300gr", valor: 15.20, marca: "Chipps"  },
       { id: 5, descricao: "Nescau 400gr", valor: 8.00, marca: "Nestlé"  },
   ]
-}
+} */
 
 // Cria um manipulador da rota padrão 
 routerAPI.get('/produtos', function (req, res) {
