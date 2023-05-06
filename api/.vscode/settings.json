@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/445e6636-afaa-4250-b371-6c7ae3b3a0dd/resourceGroups/produtos-puc-hygo_group/providers/Microsoft.Web/sites/produtos-puc-hygo",
+    "appService.deploySubpath": "."
+}
