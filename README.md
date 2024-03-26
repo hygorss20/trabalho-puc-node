@@ -1,4 +1,4 @@
-# trabalho node puc minas materia de Node - liberar uma api rest completa com armazenamento em Banco de dado
+# API de produtos feita em node - liberar uma api rest completa com armazenamento em Banco de dado
 
 banco: Knex - armazenamento local -
 liguagem - Node.js 
